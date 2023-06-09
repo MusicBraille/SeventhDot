@@ -1,4 +1,6 @@
 # SeventhDot
+##혹시 돌아가지 않으면 말씁 주시면 실물 시연도 가능합니다!!!!!!! 저희끼리도 개발 환경이 맞지 않으면 자꾸 오류가 났던 실험인지라, 안되면 꼭 말씀해주시길 바랍니다. 
+
 
 학습에 사용한 음표 데이터셋
 https://www.kaggle.com/datasets/kishanj/music-notes-datasets
