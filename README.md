@@ -1,5 +1,8 @@
 # SeventhDot
 
+학습에 사용한 음표 데이터셋
+https://www.kaggle.com/datasets/kishanj/music-notes-datasets
+
 1. preprocessing 시연
 - 돌리면 악보 파일이 나옵니다.
 
