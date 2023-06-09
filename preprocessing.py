@@ -60,7 +60,9 @@ for i in range(1, cnt):
         sta.append(roi2)
         # 객체 저장
         cv2.imwrite('save/1%s.PNG' %i, 255-roi1)
+        print('save/1%s.PNG saved' %i)
         cv2.imwrite('save/2%s.PNG' %i, 255-roi2)
+        print('save/2%s.PNG saved' %i)
 
 # 보표 그래프 저장
 j=1
@@ -77,7 +79,8 @@ for st in sta:
     plt.figure(figsize=(10, 5))
     plt.plot(histogram)
     # plt.show()
-    plt.savefig('save/graph%s.PNG' %i)
+    plt.savefig('save/graph%s.PNG' %j)
+    print('save/graph%s.PNG saved' %j)
     j+=1
 
 j=1
@@ -115,4 +118,5 @@ for img in sta:
         bordered_img = cv2.copyMakeBorder(cut_img, 20, 20, 50, 50, cv2.BORDER_CONSTANT, None, value=0)
         filename = f'save/{j}bordered_img_{i}.jpg'
         cv2.imwrite(filename, 255-bordered_img)
+        print('save/%s.jpg saved' %filename)
     j+=1
