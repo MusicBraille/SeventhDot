@@ -59,10 +59,10 @@ for i in range(1, cnt):
         sta.append(roi1)
         sta.append(roi2)
         # 객체 저장
-        cv2.imwrite('save/1%s.PNG' %i, 255-roi1)
-        print('save/1%s.PNG saved' %i)
-        cv2.imwrite('save/2%s.PNG' %i, 255-roi2)
-        print('save/2%s.PNG saved' %i)
+        cv2.imwrite('save/1_%s.PNG' %i, 255-roi1)
+        print('save/1_%s.PNG saved' %i)
+        cv2.imwrite('save/2_%s.PNG' %i, 255-roi2)
+        print('save/2_%s.PNG saved' %i)
 
 # 보표 그래프 저장
 j=1
