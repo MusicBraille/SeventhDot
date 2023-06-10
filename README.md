@@ -6,7 +6,7 @@
 https://www.kaggle.com/datasets/kishanj/music-notes-datasets
 
 1. preprocessing 시연
-- 돌리면 악보 파일이 나옵니다.
+- 돌리면 악보 파일이 나옵니다. resources 폴더에 접근해야 하기에, 꼭 같은 파일에 넣어놓은 채로 실험해주세요! 
 
 2. 해당 전처리 과정이 모델 성능을 개선하는지에 대한 실험
 - google 코랩에서 colab_test.ipynb 실험
