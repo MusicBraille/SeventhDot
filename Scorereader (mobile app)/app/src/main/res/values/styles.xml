@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="bigTextSize">
+        <item name="android:textSize">70dp</item>
+        <item name="android:textColor">@color/ewhagreen</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="midTextSize">
+        <item name="android:textSize">70dp</item>
+        <item name="android:textColor">@color/paleyellow</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="basicTextSize">
+        <item name="android:textSize">50dp</item>
+        <item name="android:textColor">@color/paleyellow</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="smallTextSize">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">@color/paleyellow</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>
